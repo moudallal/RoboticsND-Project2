@@ -2,7 +2,7 @@
 <!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
      Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
-<robot name="drive_bot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+<robot name="my_robot" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
   <link name="base_link">
     <!-- <pose>0 0 0.04 0 0 0</pose> -->
@@ -14,7 +14,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://drive_bot/meshes/base_link.STL" />
+        <mesh filename="package://my_robot/meshes/base_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.254 0.329 0.4 1" />
@@ -23,7 +23,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://drive_bot/meshes/base_link.STL" />
+        <mesh filename="package://my_robot/meshes/base_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -36,7 +36,7 @@
     <visual>
       <origin xyz="-0.04 -0.03 -0.03" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://drive_bot/meshes/left_wheel.STL" />
+        <mesh filename="package://my_robot/meshes/left_wheel.STL" />
       </geometry>
       <material name="">
         <color rgba="0.211 0.211 0.211 1" />
@@ -45,7 +45,7 @@
     <collision>
       <origin xyz="-0.04 -0.03 -0.03" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://drive_bot/meshes/left_wheel.STL" />
+        <mesh filename="package://my_robot/meshes/left_wheel.STL" />
       </geometry>
     </collision>
   </link>
@@ -59,7 +59,7 @@
     <visual>
       <origin xyz="-0.04 -0.03 0.03" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://drive_bot/meshes/right_wheel.STL" />
+        <mesh filename="package://my_robot/meshes/right_wheel.STL" />
       </geometry>
       <material name="">
         <color rgba="0.211 0.211 0.211 1" />
@@ -68,7 +68,7 @@
     <collision>
       <origin xyz="-0.04 -0.03 0.03" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://drive_bot/meshes/right_wheel.STL" />
+        <mesh filename="package://my_robot/meshes/right_wheel.STL" />
       </geometry>
     </collision>
   </link>
@@ -167,5 +167,5 @@
     </material>
   </gazebo>
 
-  <xacro:include filename="$(find drive_bot)/urdf/drive_bot.gazebo" />
+  <xacro:include filename="$(find my_robot)/urdf/my_robot.gazebo" />
 </robot>

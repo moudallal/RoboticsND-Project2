@@ -16,7 +16,7 @@ Find Udacity's Robotics Software Engineering Nanodegree [here](https://www.udaci
 
 ## Design Process
 
-- Designed a differential drive robot using Solidworks (STLs available inside `drive_bot/meshes`) then exported it to URDF using [Solidworks to URDF Exporter](https://github.com/ros/solidworks_urdf_exporter)
+- Designed a differential drive robot using Solidworks (STLs available inside `my_robot/meshes`) then exported it to URDF using [Solidworks to URDF Exporter](https://github.com/ros/solidworks_urdf_exporter)
 - Tweaked URDF to fix axis and coordinate systems, added camera and LIDAR sensor to robot model
 - Designed a maze world using Gazebo's Building Editor based on [this maze](https://www.researchgate.net/figure/Sample-maze-used-in-computer-simulations_fig6_315969093)
 - Wrote C++ nodes `drive_bot` and `process_image` to drive the robot's wheels based on the position of the white ball as obtained by the latter node

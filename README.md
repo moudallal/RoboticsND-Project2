@@ -12,7 +12,7 @@ Find Udacity's Robotics Software Engineering Nanodegree [here](https://www.udaci
 - Write a `drive_bot` C++ node that will provide a ball_chaser/command_robot service to drive the robot by controlling its linear x and angular z velocities
 - Write a `process_image` C++ node that reads your robot’s camera image, analyzes it to determine the presence and position of a white ball
 
-<!-- The requirements of this project were met as approved by Udacity's reviewers. -->
+The requirements of this project were met as approved by Udacity's reviewers.
 
 ## Design Process
 
